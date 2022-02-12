@@ -1,0 +1,32 @@
+.register {
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+  
+   
+}
+
+.register input{
+    border: none;
+    border-bottom: 1px solid blue;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.register button{
+    width: 5.5rem;
+    height: fit-content;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.register button:hover{
+    background-color: blue;
+    color: #ffff;
+}
